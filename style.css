@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(40, 41, 45);
+  color: rgb(222, 66, 99);
+  
+}
+
+#galeria {
+  background-image: url("../asset/img/festivalsitio23.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: contain; 
+  background-position: bottom;
+}
+
+h1 {
+  color: rgb(201, 202, 182);
+}
+
+.icono {
+  color: rgb(222, 66, 99);
+}
+
+.lead {
+  color: blue;
+}
+
+.card-title {
+  color: rgb(222, 66, 99);
+}
+
+.card {
+  background-color: lightgrey;
+  color: rgb(40, 41, 45);
+}
+
+.col-md-8 {
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
